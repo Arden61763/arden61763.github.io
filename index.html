@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Arden Primary Education</title>
+    <link rel="stylesheet" href="w3.css">
+    <style>
+        body {
+            background-color: blueviolet;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-style: normal;
+            color: white;
+            width: auto;
+        }
+
+        footer {
+            white-space: nowrap;
+        }
+
+        .w3-bar-item {
+            min-height: 40px;
+            min-width: 12.5%;
+        }
+
+        .w3-button {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <header class="w3-container">
+        <div class="w3-container w3-cell w3-cell-bottom">
+            <img src="images/apelogo.png" width="120" height="120" alt="The logo of Arden Primary Education, a cartoon monkey" />
+        </div>
+        <div class="w3-container w3-cell">
+            <h1>Arden<br />Primary<br />Education</h1>
+        </div>
+        <div class="w3-bar w3-cell">
+            <a class="w3-right w3-padding-large" href="https://twitter.com/"><img src="images/twitter_logo.png" width="30" height="30" alt="Twitter's Logo" /></a>
+            <a class="w3-right w3-padding-large" href="https://www.facebook.com/"><img src="images/facebook_logo.png" width="30" height="30" alt="Facebook's Logo" /></a>
+        </div>
+    </header>
+    <nav class="w3-bar">
+        <strong>
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6 w3-deep-orange">Home</a>
+            <a href="pupils.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6">Pupils</a>
+            <a href="parents.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6">Parents</a>
+            <a href="governance.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6">Governance</a>
+            <a href="curriculum.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6">Curriculum</a>
+            <a href="usefullinks.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6">Useful Links</a>
+            <a href="termdates.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6">Term Dates</a>
+            <a href="contact.html" class="w3-bar-item w3-button w3-hover-yellow w3-card w3-col l1 m3 s6">Contact Us</a>
+        </strong>
+    </nav>
+    <div class="w3-display-container">
+        <div class="slideshow">
+            <div class="w3-display-container">
+                <img src="images/crayons.jpg" style="max-width:100%" alt="Various coloured crayons in a yellow box" />
+                <div class="w3-panel w3-white w3-opacity w3-display-bottommiddle" style="width:100%; text-align:right">
+                    <h2>Charity Colouring Competition</h2>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow">
+            <div class="w3-display-container">
+                <img src="images/notebooks.jpg" style="max-width:100%" alt="Three red exercise books on a table" />
+                <div class="w3-panel w3-white w3-opacity w3-display-bottommiddle" style="width:100%; text-align:right">
+                    <h2>Exercise Books</h2>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow">
+            <a href="termdates.html">
+                <div class="w3-display-container">
+                    <img src="images/calendar.jpg" style="max-width:100%" alt="A zoomed in picture of one page of a calendar" />
+                    <div class="w3-panel w3-white w3-opacity w3-display-bottommiddle" style="width:100%; text-align:right">
+                        <h2>Term Dates 2019/2020</h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <button class="w3-button w3-hover-yellow w3-display-left" onclick="plusDivs(1)">&larr;</button>
+        <button class="w3-button w3-hover-yellow w3-display-right" onclick="plusDivs(-1)">&rarr;</button>
+        <script>
+            var slideIndex = 0;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("slideshow");
+                if (n > x.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = x.length };
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+        </script>
+    </div>
+    <footer class="w3-cell-row w3-topbar w3-border-yellow">
+        <div class="w3-cell w3-padding w3-col m6 s12">
+            <ul class="w3-ul">
+                <li><h2>Quick Links</h2></li>
+                <li><a href="homepage.html">Homepage</a></li>
+                <li><a href="https://reports.ofsted.gov.uk/">Ofsted Report</a></li>
+                <li><a href="https://www.birmingham.gov.uk/info/20014/schools_and_learning">Birmingham Council - Schools and Learning</a></li>
+            </ul>
+        </div>
+        <div class="w3-cell w3-padding w3-col l3 m4 s6">
+            <p>Email: <a href="mailto:info@ardenprimary.sch.uk">info@ardenprimary.sch.uk</a></p>
+            <p>Phone: 0121 111 111</p>
+            <address>
+                Arden Primary Education<br />
+                Centre City<br />
+                7 Hill Street<br />
+                Birmingham<br />
+                B5 4UA
+            </address>
+        </div>
+        <div class="w3-right w3-padding m2 s6">
+            <p>&copy; STU61763</p>
+        </div>
+    </footer>
+</body>
+</html>
