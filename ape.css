@@ -14,16 +14,16 @@ footer {
 .w3-bar-item {
     min-height: 40px;
     min-width: 12.5%;
-    background-color: #009935;
+    background-color: #00782A;
     text-decoration: none;
     text-align: center;
 }
 
-.w3-bar-item:hover{
+.w3-bar-item:hover, .w3-btn:hover {
     background-color: #46B36B;
 }
-.w3-button, .w3-bar-block{
-    background-color: #009935;
+.w3-button, .w3-bar-block, .w3-btn {
+    background-color: #00782A;
 }
 li:hover {
     background-color: #5C1D96;
@@ -37,5 +37,11 @@ hr {
     border-width: 5px;
 }
 active {
-    background-color: #00782A;
+    background-color: #00591F;
+}
+.w3-panel {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    text-align: center;
 }
