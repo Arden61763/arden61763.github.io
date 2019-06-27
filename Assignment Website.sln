@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43116530-7A8C-4441-B1BD-FEDA883D8F8B}"
+	ProjectSection(SolutionItems) = preProject
+		ape.css = ape.css
+		contact.html = contact.html
+		curriculum.html = curriculum.html
+		index.html = index.html
+		news.html = news.html
+		template.html = template.html
+		termdates.html = termdates.html
+		w3.css = w3.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B287C181-8F6F-4580-A5B7-63ACC1BB8A81}
+	EndGlobalSection
+EndGlobal

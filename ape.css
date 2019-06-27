@@ -14,8 +14,25 @@ footer {
 .w3-bar-item {
     min-height: 40px;
     min-width: 12.5%;
+    background-color: #009935;
+    text-decoration: none;
+    text-align: center;
 }
 
-.w3-button {
-    background-color: darkorange;
+.w3-bar-item:hover{
+    background-color: #46B36B;
+}
+.w3-button, .w3-bar-block{
+    background-color: #009935;
+}
+li:hover {
+    background-color: #5C1D96;
+}
+em {
+    font-style: initial;
+    font-weight: bold;
+}
+hr {
+    border-color: #F09100;
+    border-width: 5px;
 }
