@@ -36,3 +36,6 @@ hr {
     border-color: #F09100;
     border-width: 5px;
 }
+active {
+    background-color: #00782A;
+}
