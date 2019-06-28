@@ -14,7 +14,6 @@ footer {
 .w3-bar-item {
     min-height: 40px;
     min-width: 12.5%;
-    background-color: #00782A;
     text-decoration: none;
     text-align: center;
 }
@@ -22,26 +21,44 @@ footer {
 .w3-bar-item:hover, .w3-btn:hover {
     background-color: #46B36B;
 }
-.w3-button, .w3-bar-block, .w3-btn {
+
+.w3-button, .w3-bar-block, .w3-btn, .subject-container, .subject, .w3-bar-item {
     background-color: #00782A;
 }
+
 li:hover {
     background-color: #5C1D96;
 }
+
 em {
     font-style: initial;
     font-weight: bold;
 }
+
 hr {
-    border-color: #F09100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-color: #00591f;
     border-width: 5px;
 }
-active {
-    background-color: #00591F;
-}
+
 .w3-panel {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
     text-align: center;
+}
+
+.subject {
+    color: white;
+    text-align: center;
+}
+
+.subject-container {
+    margin: 16px;
+    max-width: 400px;
+}
+
+.active{
+    background-color: #00591F;
 }
