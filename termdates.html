@@ -37,7 +37,7 @@
     </nav>
     <div class="w3-container w3-padding">
         <button class="w3-btn w3-block w3-margin-top" onclick="accordion('18-19')"><h2>Term Dates 2018/2019</h2></button>
-        <ul class="w3-ul w3-card w3-hide" id="18-19">
+        <ul class="w3-ul w3-card" id="18-19">
             <li><h3>Autumn Term 2018</h3></li>
             <li><strong>Term Starts:</strong> Monday 3 September 2018</li>
             <li><strong>Half Term:</strong> Monday 29 October 2018 to Friday 2 November 2018</li>
@@ -51,8 +51,9 @@
             <li><strong>Half Term:</strong> Monday 27 May 2019 to Friday 31 May 2019</li>
             <li><strong>Term Ends:</strong> Monday 22 July 2019</li>
         </ul>
+        <script>document.getElementById("18-19").className += " w3-hide"</script>
         <button class="w3-btn w3-block w3-margin-top" onclick="accordion('19-20')"><h2>Term Dates 2019/2020</h2></button>
-        <ul class="w3-ul w3-card w3-hide" id="19-20">
+        <ul class="w3-ul w3-card" id="19-20">
             <li><h3>Autumn Term 2019</h3></li>
             <li><strong>Term Starts:</strong> Monday 3 September 2018</li>
             <li><strong>Half Term:</strong> Monday 29 October 2018 to Friday 2 November 2018</li>
@@ -66,15 +67,16 @@
             <li><strong>Half Term:</strong> Monday 27 May 2019 to Friday 31 May 2019</li>
             <li><strong>Term Ends:</strong> Monday 22 July 2019</li>
         </ul>
+        <script>document.getElementById("19-20").className += " w3-hide"</script>
         <script>
-        function accordion(id) {
-            var x = document.getElementById(id);
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
+            function accordion(id) {
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
             }
-        }
         </script>
     </div>
     <hr />
